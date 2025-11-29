@@ -19,9 +19,9 @@ export async function GET() {
   };
 
   return rss({
-    title: "潮流周刊",
-    description: "记录工程师 Tw93 的不枯燥生活",
-    site: "https://weekly.tw93.fun/",
+    title: "照片记忆",
+    description: "记录工程师 wb 的不枯燥生活",
+    site: "https://photo.wangbiun.run/",
     customData: `<image><url>https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png</url></image><follow_challenge><feedId>41147805276726275</feedId><userId>42909600318350336</userId></follow_challenge>`,
     items: await Promise.all(
       posts.map(async (item) => {
