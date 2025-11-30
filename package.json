@@ -1,6 +1,6 @@
 {
-  "name": "weekly",
-  "description": "潮流周刊，记录工程师 Tw93 的不枯燥生活，每周一发布，希望你喜欢",
+  "name": "照片记忆",
+  "description": "照片记忆，记录工程师 Wb 的不枯燥生活，每周一发布，希望你喜欢",
   "type": "module",
   "version": "0.2.0",
   "private": true,
@@ -9,8 +9,8 @@
     "url": "https://github.com/tw93/weekly.git"
   },
   "author": {
-    "name": "Tw93",
-    "email": "tw93@qq.com"
+    "name": "Wb",
+    "email": "wb@wangbin.run"
   },
   "license": "MIT",
   "scripts": {

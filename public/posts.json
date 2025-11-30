@@ -1641,14 +1641,14 @@
     "num": 2,
     "title": "太子湾",
     "url": "https://weekly.tw93.fun/posts/02-太子湾",
-    "pic": "https://gw.alipayobjects.com/zos/k/yt/ck1Y1K.png",
+    "pic": "/assets/2.jpg",
     "description": "摄于杭州太子湾郁金香，挺美，每年3月底4月初开，明年你可以带着朋友去看看"
   },
   {
     "num": 1,
     "title": "安吉黄昏",
     "url": "https://weekly.tw93.fun/posts/01-安吉黄昏",
-    "pic": "https://gw.alipayobjects.com/zos/k/h5/hzL4LG.jpg",
+    "pic": "/assets/1.jpg",
     "description": "封面图摄于安吉晚饭黄昏，伴随着一点凉风吹来，还挺有意境的。"
   }
 ]

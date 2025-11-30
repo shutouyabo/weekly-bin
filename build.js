@@ -10,7 +10,7 @@ async function fetchCiTime(filePath) {
 
 async function main() {
   const readmeContent =
-    "# 潮流周刊\n\n> 记录工程师 Tw93 的不枯燥生活，欢迎订阅，也欢迎 [推荐](https://github.com/tw93/weekly/discussions/22) 你的好东西，Fork 自用可见 [开发文档](https://github.com/tw93/weekly/blob/main/Deploy.md)，期待你玩得开心~\n\n";
+    "# 照片记忆\n\n> 记录工程师 Wb 的不枯燥生活，欢迎订阅，也欢迎 [推荐](https://github.com/tw93/weekly/discussions/22) 你的好东西，Fork 自用可见 [开发文档](https://github.com/tw93/weekly/blob/main/Deploy.md)，期待你玩得开心~\n\n";
 
   const files = await fs.readdir("./src/pages/posts");
   const mdFiles = files
@@ -31,7 +31,7 @@ async function main() {
     const oldTitle = name.split(".md")[0];
     const num = parseInt(oldTitle.split("-")[0]);
     const shortTitle = oldTitle.split("-")[1];
-    const url = `https://weekly.tw93.fun/posts/${oldTitle}`;
+    const url = `https://photo.wangbin.run/posts/${oldTitle}`;
     const title = `第 ${num} 期 - ${shortTitle}`;
 
     // Read markdown file to extract cover image and description
